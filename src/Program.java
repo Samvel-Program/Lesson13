@@ -13,8 +13,12 @@ public class Program {
 
         if (s1.length() > s2.length()) {
             System.out.println(s1);
-        } else {
+        }
+        if (s2.length() > s1.length()) {
             System.out.println(s2);
+        }
+        else{
+            System.out.println("Стороки равны");
         }
 
 
